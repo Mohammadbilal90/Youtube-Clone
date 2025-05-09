@@ -3,22 +3,30 @@ html, body{
      font-weight: 300;
      line-height: 1.4;
 }
-/* .wrap{
-    width: 1200px;
-    text-align: center;
-    justify-content: space-around;
-    display: flex;
-    align-items: center;
-} */
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    margin-left: -80px;
-    margin-right: 50px;
+.search input {
+  width: 100%;
+  max-width: 600px;
+  padding: 10px;
 }
-
+.center-nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.search button {
+    font-size: 20px;
+    padding: 10px;
+ }
+nav {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+  width: 100%;
+}
 .center-nav{
     display: flex;
     gap: 20px;
@@ -45,6 +53,7 @@ nav{
     justify-content: flex-start;
     padding: 20px;
     gap: 15px;
+    overflow: auto;
     text-align: center;
     align-items: center;
     margin-left: -90px;
@@ -93,6 +102,7 @@ aside {
 }
 
 /* main section */
+
 main {
     display: flex;
     justify-content: center     ;
@@ -148,3 +158,33 @@ h3{
     width: 420px;
     border-radius: 20px;
 }
+.card-container:hover {
+    transform: scale(1.01); 
+    background-color: #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+@media (max-width: 1390px) {
+  .search input {
+    display: none;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
