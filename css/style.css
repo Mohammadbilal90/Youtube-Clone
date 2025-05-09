@@ -1,0 +1,150 @@
+html, body{
+     scroll-behavior: smooth;
+     font-weight: 300;
+     line-height: 1.4;
+}
+/* .wrap{
+    width: 1200px;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+} */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-left: -80px;
+    margin-right: 50px;
+}
+
+.center-nav{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.side-nav{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.search input{
+    min-width: 600px;
+    padding: 20px;
+    border-radius: 20px ;
+}
+.search button{
+    background-color: rgb(241, 230, 230);
+     font-size: 25px;
+     border-radius: 20px;
+}
+.tags{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    gap: 15px;
+    text-align: center;
+    align-items: center;
+    margin-left: -90px;
+}
+.tag {
+    width: 460px;
+    height: 32px;
+    border-radius: 20px;
+    background-color: rgb(241, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    cursor: pointer;
+}
+.tag:hover{
+    display: flex;
+    color: white;
+    background-color: rgb(223 18 18);
+    transform: scale(1.05);
+}
+aside {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+     
+}
+.side-icons {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+.main-container {
+    margin-left: 10px;
+    width: 90%;
+
+}
+
+/* main section */
+main {
+    display: flex;
+    justify-content: center     ;
+    min-height: 100vh;
+    background: rgb(240, 238, 238);
+}
+.main-content-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    gap: 20px;
+}
+.card-container{
+    display: grid ;
+    grid-template-columns: repeat(auto-fir , minmax(320px , 1fr));
+}
+.card{
+    padding: 10px;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+.avatar-content{
+    padding-top: 10px;
+    display: flex;
+    gap: 5px;
+}
+h3{
+    font-size: 20px;
+    margin-bottom: -20px;
+    margin-top: -2px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+}
+.channel-name{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: -18px;
+}
+.content-status {
+    display: flex;
+    font-size: 14px;
+    gap: 30px ;
+}
+.bg-card img{
+    margin-top: 28px;
+    width: 420px;
+    border-radius: 20px;
+}
